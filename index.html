@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-slate-950 lg:p-[15%]">
+    <main class="flex items-center justify-center max-sm:w-[100%] max-sm:flex max-sm:items-center max-sm:justify-center">
+        <div class=" lg:w-[40vw] lg:h-[20vh] flex items-center gap-4 max-sm:w-[100%] max-sm:flex-col max-sm:mt-[40%]">
+            <div class="bg-slate-800 flex-col w-[14vw] h-[17vh]  space-y-5 lg:rounded-tr-[50%] lg:p-[5%] max-sm:p-[10%] rounded-br-[5px] rounded-bl-[5px] rounded-tl-[5px] max-sm:w-[80vw] max-sm:h-[25vh] max-sm:flex  rounded-tr-[30%]">
+                <div>
+                    <img src="./images/logo.svg" alt="" class="lg:h-[3vh] max-sm:h-[5vh]">
+                </div>
+                <div class="flex gap-2 max-sm:gap-3">
+                    <div class="w-[2vw] h-[4vh] flex items-center justify-center bg-slate-950 p-[1px] rounded-[3px] max-sm:w-[10vw] max-sm:h-[6vh]">
+                        <img src="./images/icon-document.svg" alt="" class=" h-[2vh] max-sm:h-[3vh]">
+                    </div>
+                    <div class="w-[2vw] h-[4vh] flex items-center justify-center bg-slate-950 p-[1px] rounded-[3px] max-sm:w-[10vw] max-sm:h-[6vh]">
+                        <img src="./images/icon-folder.svg" alt="" class=" h-[2vh] max-sm:h-[3vh]">
+                    </div>
+                    <div class="w-[2vw] h-[4vh] flex items-center justify-center bg-slate-950 p-[2px] rounded-[3px] max-sm:w-[10vw] max-sm:h-[6vh]">
+                        <img src="./images/icon-upload.svg" alt="" class=" h-[1.5vh] max-sm:h-[2.5vh]">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center w-[25vw] h-[13vh] bg-slate-800 rounded-[4px] lg:mt-7 lg:p-[3%] max-sm:w-[80vw] max-sm:p-[10%] max-sm:h-[20vh]">
+                <div class="bg-white w-[5vw] h-[5vh] rounded-[5px] absolute lg:left-[62%] lg:top-[32%] max-sm:w-[38vw] max-sm:h-[9vh] left-[30%] top-[65%] max-sm:flex justify-center">
+                    <p class="text-black text-[20px] max-sm:text-[40px] font-bold flex items-center gap-1">
+                        185 <span class="text-gray-600 text-[7px] max-sm:text-[14px]">GB LEFT</span>
+                    </p>
+                </div>
+                <p class="text-[12px] text-gray-400 max-sm:text-[13px]">
+                     You’ve used <span class="text-white text-[12px] max-sm:text-[13px]">815 GB</span> of your storage
+                </p>
+                <div>
+                    <input type="range" class="w-full accent-pink-500 rounded-lg overflow-hidden max-sm:w-full">
+                    <div class="flex justify-between text-white text-[10px]"><p> 0 GB</p> <p>1000 GB</p></div>   
+                </div>
+            </div>  
+        </div>
+    </main>
+</body>
+</html>
